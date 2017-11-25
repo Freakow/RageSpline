@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/_Freakow/RageSpline/Demo/Template - Physics Game/PhysicsGameTemplate.unity
+  isLoaded: 1
+  isActive: 1

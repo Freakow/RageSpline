@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 23: {fileID: 2300000}
+  - 33: {fileID: 3300000}
+  m_Layer: 0
+  m_Name: ControlPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 77.3092728, y: 7.64037561, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b9e0b81f88d9d994dbec43692d08d3c7, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1002 &2300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 0}
+--- !u!1002 &3300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03351eef812632d4ba150c732aaedbf7, type: 1}
+  m_Name: 
+  outline: 1
+  outlineColor1:
+    r: .328358233
+    g: .132323474
+    b: .132323474
+    a: 1
+  outlineColor2:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  OutlineWidth: .100000001
+  outlineTexturingScale: 10
+  outlineGradient: 0
+  outlineNormalOffset: 0
+  corners: 0
+  fill: 1
+  landscapeBottomDepth: 10
+  fillColor1:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  fillColor2:
+    r: 0
+    g: 0
+    b: 1
+    a: 1
+  UVMapping1: 0
+  UVMapping2: 0
+  gradientOffset: {x: 0, y: 0}
+  gradientAngle: 0
+  gradientScale: .100000001
+  textureOffset: {x: -5, y: -5}
+  textureAngle: 0
+  textureScale: .100000001
+  textureOffset2: {x: 5, y: 5}
+  textureAngle2: 0
+  textureScale2: .100000001
+  emboss: 0
+  embossColor1:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  embossColor2:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  embossAngle: 180
+  embossOffset: .5
+  embossSize: 10
+  embossCurveSmoothness: 3
+  physics: 0
+  createPhysicsInEditor: 0
+  createConvexMeshCollider: 0
+  physicsMaterial: {fileID: 0}
+  vertexCount: 16
+  physicsColliderCount: 32
+  colliderZDepth: 100
+  colliderNormalOffset: 0
+  boxColliderDepth: 1
+  lastPhysicsVertsCount: 0
+  antiAliasingWidth: .400000006
+  landscapeOutlineAlign: 1
+  showSplineGizmos: 1
+  showOtherGizmos: 1
+  optimize: 0
+  optimizeAngle: 5
+  showCoordinates: 1
+  gridSize: 1
+  gridColor:
+    r: 1
+    g: 1
+    b: 1
+    a: .200000003
+  showGrid: 1
+  gridExpansion: 2
+  snapToGrid: 1
+  snapHandlesToGrid: 1
+  showNumberInputs: 1
+  style: {fileID: 0}
+  defaultStyleName: 5374796c656e616d65
+  styleLocalGradientPositioning: 0
+  styleLocalTexturePositioning: 0
+  styleLocalEmbossPositioning: 0
+  styleLocalAntialiasing: 0
+  styleLocalVertexCount: 0
+  styleLocalPhysicsColliderCount: 0
+  spline:
+    points:
+    - point: {x: 1.59532166, y: 0, z: 0}
+      inCtrl: {x: -0, y: .877429485, z: -0}
+      outCtrl: {x: 0, y: -.877429485, z: 0}
+      widthMultiplier: 1
+      natural: 1
+    - point: {x: 0, y: -1.59532785, z: 0}
+      inCtrl: {x: .877433777, y: -0, z: -0}
+      outCtrl: {x: -.877433777, y: 0, z: 0}
+      widthMultiplier: 1
+      natural: 1
+    - point: {x: -1.59532166, y: 0, z: 0}
+      inCtrl: {x: -0, y: -.877429485, z: -0}
+      outCtrl: {x: 0, y: .877429485, z: 0}
+      widthMultiplier: 1
+      natural: 1
+    - point: {x: 0, y: 1.59532881, z: 0}
+      inCtrl: {x: -.877433777, y: -0, z: -0}
+      outCtrl: {x: .877433777, y: 0, z: 0}
+      widthMultiplier: 1
+      natural: 1
+  lowQualityRender: 0
+  inverseTriangleDrawOrder: 0
+  overLappingVertsShift: .00999999978
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6
